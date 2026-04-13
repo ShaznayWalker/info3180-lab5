@@ -11,8 +11,8 @@ import os
 from werkzeug.utils import secure_filename
 from flask_wtf.csrf import generate_csrf
 from app import db
-from models import Movie
-from forms import MovieForm
+from app.models import Movie 
+from app.forms import MovieForm 
 
 ###
 # Routing for your application.
